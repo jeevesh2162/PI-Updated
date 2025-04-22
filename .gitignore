@@ -1,0 +1,40 @@
+# Root-level ignores
+node_modules/
+.env
+.DS_Store
+.vscode/
+.idea/
+*.log
+yarn-error.log
+npm-debug.log*
+dist/
+build/
+coverage/
+
+# Frontend-specific ignores
+Frontend/node_modules/
+Frontend/.env
+Frontend/.next/
+Frontend/.nuxt/
+Frontend/dist/
+Frontend/build/
+Frontend/out/
+Frontend/.cache/
+
+# Server-specific ignores
+Server/node_modules/
+Server/.env
+Server/dist/
+Server/build/
+Server/logs/
+Server/temp/
+Server/coverage/
+Server/.cache/
+
+# Ignore local editor/IDE config files
+Frontend/*.iml
+Server/*.iml
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.bak
